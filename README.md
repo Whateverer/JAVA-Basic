@@ -61,4 +61,12 @@ public enum MemoUseEnum {
         return 0;
     }
 }
+
+
+@Getter
+@AllArgsConstructor
+class MemoTable{
+    final int memoSeq;
+    final String tableNm;
+}
 ```
